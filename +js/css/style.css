@@ -1,0 +1,52 @@
+.container_general{
+    background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%);
+    border-radius: 20px;
+    padding: 10% 10% 10% 10%;
+    justify-items: center;
+}
+.container_equipos{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(156, 156, 156);   
+    border-radius: 20px;
+}
+
+table {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #97bcff;
+    border-style: solid;
+    color: #000000;
+    border-radius: 10%;
+}
+
+
+th {
+    display: inline-flex;
+    align-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
